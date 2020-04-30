@@ -1585,7 +1585,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #9a9a9a;
+		color: #555;
 		font-family: "Raleway", Arial, Helvetica, sans-serif;
 		font-size: 13pt;
 		font-weight: 300;
@@ -1633,7 +1633,7 @@
 		}
 
 	a {
-		color: #5385c1;
+		color: whitesmoke;
 		text-decoration: underline;
 	}
 
@@ -1823,7 +1823,7 @@
 			}
 
 			section.wrapper.style1 header p, article.wrapper.style1 header p {
-				color: #bacee6;
+				color: whitesmoke;
 			}
 
 			section.wrapper.style1 h3, article.wrapper.style1 h3 {
@@ -1867,7 +1867,7 @@
 		}
 
 	header p {
-		color: #bbb;
+		color: #555;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2945,7 +2945,7 @@
 		padding: 12em 0 10em 0;
 		background-image: url('../../images/banner.jpg');
 		background-size: contain;
-		background-position: top;
+		background-position: initial;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
