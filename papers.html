@@ -130,30 +130,20 @@
 
             <p style="text-align: center;"><h4><strong>Singling the Odd Ones Out: A Novelty Detection Approach to Find Defects in Infrastructure-as-Code</strong></h4></p>
             <p style="text-align: center;">
-                <strong>Stefano Dalla Palma</strong> <a style="color:blue" href="mailto:s.dallapalma@uvt.nl">s.dallapalma@uvt.nl</a> <i>(Jheronimus Academy of Data Science)</i>,<br> <strong>Majid Mohammadi</strong> <a style="color:blue" href="mailto:m.mohammadi1@tue.nl">m.mohammadi1@tue.nl</a> <i>(Jheronimus Academy of Data Science)</i>,<br>
-                <strong>Dario Di Nucci</strong> <a style="color:blue" href="mailto:d.dinucci@uvt.nl">d.dinucci@uvt.nl</a> <i>(Jheronimus Academy of Data Science)</i>, <br> <strong>Damian A. Tamburri</strong> <a style="color:blue" href="mailto:d.a.tamburri@tue.nl">d.a.tamburri@tue.nl</a> <i>(Jheronimus Academy of Data Science)</i>
+                <strong>Stefano Dalla Palma</strong> <a style="color:blue" href="mailto:s.dallapalma@uvt.nl">s.dallapalma@uvt.nl</a> <i>(Jheronimus Academy of Data Science)</i>, <strong>Majid Mohammadi</strong> <a style="color:blue" href="mailto:m.mohammadi1@tue.nl">m.mohammadi1@tue.nl</a> <i>(Jheronimus Academy of Data Science)</i>, <strong>Dario Di Nucci</strong> <a style="color:blue" href="mailto:d.dinucci@uvt.nl">d.dinucci@uvt.nl</a> <i>(Jheronimus Academy of Data Science)</i>, <strong>Damian A. Tamburri</strong> <a style="color:blue" href="mailto:d.a.tamburri@tue.nl">d.a.tamburri@tue.nl</a> <i>(Jheronimus Academy of Data Science)</i>
             </p>
 
             <p><strong>Abstract:</strong> Although Infrastructure-as-Code (IaC) is increasingly adopted, little is known about how to best maintain and evolve it.
-                Previous studies focused on defining Machine-Learning models to predict defect-prone blueprints with the final goal of helping DevOps engineers scheduling testing and maintenance activities.
-                However, the dominant technique for IaC defect prediction is supervised binary classification, which uses defective and non-defective instances for training but Such methods require labeled data points to train the classifier.
-                Furthermore, the high imbalance between defective and non-defective samples makes the training more difficult and leads to unreliable classifiers.
-                In this work, we tackle the defect-prediction problem from a different perspective using novelty detection and evaluate the performance of three techniques, namely OneClassSVM, LocalOutlierFactor, and IsolationForest, and compare their performance with a baseline RandomForest binary classifier.
-                Such models are trained using only non-defective samples.
-                At the same time, defective data points are treated as novelty because the number of defective samples is too little compared to defective ones.
-                We conduct an empirical study on an extremely imbalanced dataset consisting of 85 real-world Ansible projects containing only small amounts of defective instances.
-                We found that novelty detection techniques can recognize defects with a high level of precision and recall, an AUC-PR up to 0.86, and an MCC up to 0.31.
-                We deem our results can influence the current trends in defect detection and put forward a new research path toward dealing with this problem.
+                Previous studies focused on defining Machine-Learning models to predict defect-prone blueprints with the final goal of helping DevOps engineers scheduling testing and maintenance activities. However, the dominant technique for IaC defect prediction is supervised binary classification, which uses defective and non-defective instances for training but Such methods require labeled data points to train the classifier. Furthermore, the high imbalance between defective and non-defective samples makes the training more difficult and leads to unreliable classifiers. In this work, we tackle the defect-prediction problem from a different perspective using novelty detection and evaluate the performance of three techniques, namely OneClassSVM, LocalOutlierFactor, and IsolationForest, and compare their performance with a baseline RandomForest binary classifier.
+                Such models are trained using only non-defective samples. At the same time, defective data points are treated as novelty because the number of defective samples is too little compared to defective ones.
+                We conduct an empirical study on an extremely imbalanced dataset consisting of 85 real-world Ansible projects containing only small amounts of defective instances. We found that novelty detection techniques can recognize defects with a high level of precision and recall, an AUC-PR up to 0.86, and an MCC up to 0.31. We deem our results can influence the current trends in defect detection and put forward a new research path toward dealing with this problem.
             </p>
 
             <hr>
 
-            <p style="text-align: center;"><h4><strong>DeepIaC: Deep Learning based LinguisticAnti-pattern Detection in IaC</strong></h4></p>
+            <p style="text-align: center;"><h4><strong>DeepIaC: Deep Learning-based Linguistic Anti-pattern Detection in IaC</strong></h4></p>
             <p style="text-align: center;">
-                <strong>Nemania Borovits</strong> <a style="color:blue" href="mailto:n.borovits@tilburguniversity.edu">n.borovits@tilburguniversity.edu</a> <i>(Tilburg University/JADS)</i>, <br> <strong>Indika Kumara</strong> <a style="color:blue" href="mailto:i.p.k.weerasingha.dewage@tue.nl">i.p.k.weerasingha.dewage@tue.nl</a> <i>(Eindhoven University of Technology/JADS)</i>,<br>
-                <strong>Parvathy Krishnan</strong> <a style="color:blue" href="mailto:parvathykrishnank@gmail.com">parvathykrishnank@gmail.com</a> <i>(Tilburg University/JADS)</i>, <br> <strong>Stefano Dalla Palma</strong> <a style="color:blue" href="mailto:s.dalla.palma@uvt.nl">s.dalla.palma@uvt.nl</a> <i>(Tilburg University/JADS)</i>,<br>
-                <strong>Dario Di Nucci</strong> <a style="color:blue" href="mailto:d.dinucci@uvt.nl">d.dinucci@uvt.nl</a> <i>(Tilburg University/JADS)</i>, <br> <strong>Fabio Palomba</strong> <a style="color:blue" href="mailto:fpalomba@unisa.it">fpalomba@unisa.it</a> <i>(University of Salerno)</i>,<br>
-                <strong>Damian Andrew Tamburri</strong> <a style="color:blue" href="mailto:d.a.tamburri@tue.nl">d.a.tamburri@tue.nl</a> <i>(Eindhoven University of Technology/JADS)</i>, <br> <strong>Willem-Jan van den Heuvel</strong> <a style="color:blue" href="mailto:W.J.A.M.v.d.Heuvel@jads.nl">W.J.A.M.v.d.Heuvel@jads.nl</a> <i>(Tilburg University/JADS)</i>
+                <strong>Nemania Borovits</strong> <a style="color:blue" href="mailto:n.borovits@tilburguniversity.edu">n.borovits@tilburguniversity.edu</a> <i>(Tilburg University/JADS)</i>, <strong>Indika Kumara</strong> <a style="color:blue" href="mailto:i.p.k.weerasingha.dewage@tue.nl">i.p.k.weerasingha.dewage@tue.nl</a> <i>(Eindhoven University of Technology/JADS)</i>, <strong>Parvathy Krishnan</strong> <a style="color:blue" href="mailto:parvathykrishnank@gmail.com">parvathykrishnank@gmail.com</a> <i>(Tilburg University/JADS)</i>, <strong>Stefano Dalla Palma</strong> <a style="color:blue" href="mailto:s.dalla.palma@uvt.nl">s.dalla.palma@uvt.nl</a> <i>(Tilburg University/JADS)</i>, <strong>Dario Di Nucci</strong> <a style="color:blue" href="mailto:d.dinucci@uvt.nl">d.dinucci@uvt.nl</a> <i>(Tilburg University/JADS)</i>, <strong>Fabio Palomba</strong> <a style="color:blue" href="mailto:fpalomba@unisa.it">fpalomba@unisa.it</a> <i>(University of Salerno)</i>, <strong>Damian Andrew Tamburri</strong> <a style="color:blue" href="mailto:d.a.tamburri@tue.nl">d.a.tamburri@tue.nl</a> <i>(Eindhoven University of Technology/JADS)</i>, <strong>Willem-Jan van den Heuvel</strong> <a style="color:blue" href="mailto:W.J.A.M.v.d.Heuvel@jads.nl">W.J.A.M.v.d.Heuvel@jads.nl</a> <i>(Tilburg University/JADS)</i>
             </p>
 
             <p><strong>Abstract:</strong> Linguistic anti-patterns are recurring poor practices concerning inconsistencies
@@ -168,10 +158,10 @@
 
             <h3>Presentation abstract</h3>
 
-            <p style="text-align: center;"><h4><strong>An Effective Sequence Alignment Method for Duplicate CrashReport Detection</strong></h4></p>
+            <p style="text-align: center;"><h4><strong>An Effective Sequence Alignment Method for Duplicate Crash Report Detection</strong></h4></p>
             <p style="text-align: center;">
                 <strong>Irving Muller Rodrigues</strong> <a style="color:blue" href="mailto:irving.rodrigues@gmail.com">irving.rodrigues@gmail.com</a> <i>(Polytechnique Montreal)</i>, <strong>Daniel Aloise</strong> <a style="color:blue" href="mailto:daniel.aloise@polymtl.ca">daniel.aloise@polymtl.ca</a> <i>(Polytechnique Montreal)</i>,<br>
-                <strong>Eraldo Rezende Fernandes</strong> <a style="color:blue" href="mailto:eraldo@facom.ufms.br">eraldo@facom.ufms.br</a> <i>(UFMS)</i>
+                <strong>Eraldo Rezende Fernandes</strong> <a style="color:blue" href="mailto:eraldo@facom.ufms.br">eraldo@facom.ufms.br</a> <i>(Universidade Federal de Mato Grosso do Sul)</i>
             </p>
 
             <p><strong>Abstract:</strong> Software systems can automatically send crash reports to developers for investigation
@@ -180,8 +170,7 @@
                 denoted bucket, to better analyze the software failure. However, to manually perform this task is time consuming,
                 laborious and impractical in many software systems. In this paper, we present a novel method to automatically detect duplicate
                 crash reports based on stack traces generated when the system crashes. Our technique is an extension of a previous method based
-                on the Needleman-Wunsch algorithm. This previous method computes the similarity between two stack traces by means of edit operations
-                considering fixed penalties. We propose a mechanism that incorporates the position and the frequency of functions
+                on the Needleman-Wunsch algorithm. This previous method computes the similarity between two stack traces by means of edit operations considering fixed penalties. We propose a mechanism that incorporates the position and the frequency of functions
                 in the stack trace in order to compute these penalties. We demonstrate that our technique outperforms state-of-the-art
                 systems and strong baselines in different scenarios.
             </p>
